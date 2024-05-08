@@ -1,0 +1,18 @@
+:root {
+    --accent-color: #09ff00;
+    --button-bg: red;
+    --button-text: grey;
+  }
+  
+  a[href^="https"] {
+    color: red;
+  }
+  .list + p {
+    font-size: 100px;
+    color: var(--accent-color);
+  }
+  
+  button {
+    background-color: var(--button-bg);
+    color: var(--button-text);
+  }
